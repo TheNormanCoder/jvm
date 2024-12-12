@@ -17,9 +17,10 @@
     
     <!-- Survivor Spaces -->
     <rect x="330" y="130" width="60" height="120" fill="#80BFFF" stroke="#000"/>
-    <text x="340" y="170" transform="rotate(-90 340,170)">Survivor 0</text>
+    <text x="360" y="190" text-anchor="middle" transform="rotate(-90 360,190)">Survivor 0</text>
     <rect x="400" y="130" width="60" height="120" fill="#80BFFF" stroke="#000"/>
-    <text x="410" y="170" transform="rotate(-90 410,170)">Survivor 1</text>
+    <text x="430" y="190" text-anchor="middle" transform="rotate(-90 430,190)">Survivor 1</text>
+
     
     <!-- Old Generation -->
     <rect x="70" y="270" width="400" height="140" fill="#99C2FF" stroke="#000"/>
