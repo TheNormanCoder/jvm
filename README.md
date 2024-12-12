@@ -7,5 +7,5 @@
 # JVM Parameters
 ![JVM Parameters](./jvm-parameters-detailed-larger.svg)
 
-# JVM Performance Tooning
-![JVM Performance Tooning](./jvm-performance-tuning.svg)
+# JVM Performance Tuning
+![JVM Performance Tuning](./jvm-performance-tuning.svg)
