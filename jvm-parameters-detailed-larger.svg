@@ -1,0 +1,120 @@
+<svg viewBox="0 0 2400 4200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Title -->
+    <rect x="0" y="0" width="2400" height="4200" fill="white"/>
+    <text x="50" y="80" font-family="Arial" font-size="52" font-weight="bold">JVM Parameters - Detailed Explanations</text>
+
+    <!-- Heap Memory Parameters -->
+    <rect x="50" y="120" width="2300" height="800" fill="#e3f2fd" stroke="#90caf9"/>
+    <text x="70" y="180" font-family="Arial" font-size="40" font-weight="bold">Heap Memory Parameters</text>
+
+    <!-- Basic Heap -->
+    <text x="90" y="240" font-family="Arial" font-size="32" font-weight="bold">Basic Heap Settings</text>
+    <text x="110" y="300" font-family="Arial" font-size="28">-Xms</text>
+    <text x="500" y="300" font-family="Arial" font-size="28">Initial heap size. Set equal to Xmx to prevent heap resizing.</text>
+    
+    <text x="110" y="360" font-family="Arial" font-size="28">-Xmx</text>
+    <text x="500" y="360" font-family="Arial" font-size="28">Maximum heap size. Sets upper limit of heap growth.</text>
+    
+    <text x="110" y="420" font-family="Arial" font-size="28">-XX:MinHeapFreeRatio</text>
+    <text x="500" y="420" font-family="Arial" font-size="28">Minimum percentage of heap free after GC.</text>
+    
+    <text x="110" y="480" font-family="Arial" font-size="28">-XX:MaxHeapFreeRatio</text>
+    <text x="500" y="480" font-family="Arial" font-size="28">Maximum percentage of heap free after GC.</text>
+
+    <!-- Young Generation -->
+    <text x="90" y="560" font-family="Arial" font-size="32" font-weight="bold">Young Generation Settings</text>
+    <text x="110" y="620" font-family="Arial" font-size="28">-Xmn</text>
+    <text x="500" y="620" font-family="Arial" font-size="28">Young generation size. Controls minor GC frequency.</text>
+    
+    <text x="110" y="680" font-family="Arial" font-size="28">-XX:NewRatio</text>
+    <text x="500" y="680" font-family="Arial" font-size="28">Ratio of old/young generation sizes.</text>
+    
+    <text x="110" y="740" font-family="Arial" font-size="28">-XX:SurvivorRatio</text>
+    <text x="500" y="740" font-family="Arial" font-size="28">Ratio between Eden and Survivor spaces.</text>
+
+    <!-- Garbage Collection Parameters -->
+    <rect x="50" y="940" width="2300" height="1000" fill="#fce4ec" stroke="#f8bbd0"/>
+    <text x="70" y="1000" font-family="Arial" font-size="40" font-weight="bold">Garbage Collection Parameters</text>
+
+    <!-- GC Selection -->
+    <text x="90" y="1060" font-family="Arial" font-size="32" font-weight="bold">Garbage Collector Selection</text>
+    <text x="110" y="1120" font-family="Arial" font-size="28">-XX:+UseSerialGC</text>
+    <text x="500" y="1120" font-family="Arial" font-size="28">Single-threaded collector for small heaps.</text>
+    
+    <text x="110" y="1180" font-family="Arial" font-size="28">-XX:+UseParallelGC</text>
+    <text x="500" y="1180" font-family="Arial" font-size="28">Parallel collector for maximum throughput.</text>
+    
+    <text x="110" y="1240" font-family="Arial" font-size="28">-XX:+UseG1GC</text>
+    <text x="500" y="1240" font-family="Arial" font-size="28">G1 collector for large heaps and balanced latency.</text>
+    
+    <text x="110" y="1300" font-family="Arial" font-size="28">-XX:+UseZGC</text>
+    <text x="500" y="1300" font-family="Arial" font-size="28">Z Garbage Collector for ultra-low latency.</text>
+
+    <!-- G1 Specific -->
+    <text x="90" y="1380" font-family="Arial" font-size="32" font-weight="bold">G1 GC Settings</text>
+    <text x="110" y="1440" font-family="Arial" font-size="28">-XX:G1HeapRegionSize</text>
+    <text x="500" y="1440" font-family="Arial" font-size="28">Size of G1 regions. Affects collection efficiency.</text>
+    
+    <text x="110" y="1500" font-family="Arial" font-size="28">-XX:G1NewSizePercent</text>
+    <text x="500" y="1500" font-family="Arial" font-size="28">Minimum young generation size percentage.</text>
+    
+    <text x="110" y="1560" font-family="Arial" font-size="28">-XX:G1MaxNewSizePercent</text>
+    <text x="500" y="1560" font-family="Arial" font-size="28">Maximum young generation size percentage.</text>
+
+    <!-- Z GC Settings -->
+    <text x="90" y="1640" font-family="Arial" font-size="32" font-weight="bold">Z GC Settings</text>
+    <text x="110" y="1700" font-family="Arial" font-size="28">-XX:ZAllocationSpikeTolerance</text>
+    <text x="500" y="1700" font-family="Arial" font-size="28">Tolerance for allocation spikes.</text>
+    
+    <text x="110" y="1760" font-family="Arial" font-size="28">-XX:ZCollectionInterval</text>
+    <text x="500" y="1760" font-family="Arial" font-size="28">Minimum time between GC cycles in seconds.</text>
+
+    <!-- Performance Tuning -->
+    <rect x="50" y="1960" width="2300" height="800" fill="#e8f5e9" stroke="#c8e6c9"/>
+    <text x="70" y="2020" font-family="Arial" font-size="40" font-weight="bold">Performance Tuning Parameters</text>
+
+    <!-- JIT Settings -->
+    <text x="90" y="2080" font-family="Arial" font-size="32" font-weight="bold">JIT Compilation Settings</text>
+    <text x="110" y="2140" font-family="Arial" font-size="28">-XX:+TieredCompilation</text>
+    <text x="500" y="2140" font-family="Arial" font-size="28">Enable tiered compilation for better performance.</text>
+    
+    <text x="110" y="2200" font-family="Arial" font-size="28">-XX:CompileThreshold</text>
+    <text x="500" y="2200" font-family="Arial" font-size="28">Invocations before compilation.</text>
+    
+    <text x="110" y="2260" font-family="Arial" font-size="28">-XX:ReservedCodeCacheSize</text>
+    <text x="500" y="2260" font-family="Arial" font-size="28">Maximum code cache size.</text>
+
+    <!-- Memory Management -->
+    <text x="90" y="2340" font-family="Arial" font-size="32" font-weight="bold">Memory Management</text>
+    <text x="110" y="2400" font-family="Arial" font-size="28">-XX:+UseLargePages</text>
+    <text x="500" y="2400" font-family="Arial" font-size="28">Use large memory pages for better performance.</text>
+    
+    <text x="110" y="2460" font-family="Arial" font-size="28">-XX:+UseCompressedOops</text>
+    <text x="500" y="2460" font-family="Arial" font-size="28">Use compressed object pointers to save memory.</text>
+
+    <!-- Debugging -->
+    <rect x="50" y="2780" width="2300" height="800" fill="#fff3e0" stroke="#ffe0b2"/>
+    <text x="70" y="2840" font-family="Arial" font-size="40" font-weight="bold">Debugging Parameters</text>
+
+    <!-- Debug Options -->
+    <text x="90" y="2900" font-family="Arial" font-size="32" font-weight="bold">GC Logging</text>
+    <text x="110" y="2960" font-family="Arial" font-size="28">-XX:+PrintGCDetails</text>
+    <text x="500" y="2960" font-family="Arial" font-size="28">Print detailed garbage collection information.</text>
+    
+    <text x="110" y="3020" font-family="Arial" font-size="28">-XX:+PrintGCTimeStamps</text>
+    <text x="500" y="3020" font-family="Arial" font-size="28">Add timestamps to GC logs.</text>
+
+    <text x="90" y="3100" font-family="Arial" font-size="32" font-weight="bold">Memory Analysis</text>
+    <text x="110" y="3160" font-family="Arial" font-size="28">-XX:+HeapDumpOnOutOfMemoryError</text>
+    <text x="500" y="3160" font-family="Arial" font-size="28">Create heap dump on OutOfMemoryError.</text>
+    
+    <text x="110" y="3220" font-family="Arial" font-size="28">-XX:HeapDumpPath</text>
+    <text x="500" y="3220" font-family="Arial" font-size="28">Location for heap dumps.</text>
+
+    <!-- Notes -->
+    <rect x="50" y="3600" width="2300" height="400" fill="#f5f5f5" stroke="#e0e0e0"/>
+    <text x="70" y="3660" font-family="Arial" font-size="40" font-weight="bold">Important Notes</text>
+    <text x="90" y="3720" font-family="Arial" font-size="28">• Parameter values impact application performance significantly</text>
+    <text x="90" y="3780" font-family="Arial" font-size="28">• Always test settings with your specific application</text>
+    <text x="90" y="3840" font-family="Arial" font-size="28">• Monitor application behavior after changes</text>
+</svg>
