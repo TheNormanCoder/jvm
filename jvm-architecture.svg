@@ -1,0 +1,145 @@
+<svg viewBox="0 0 2000 3000" xmlns="http://www.w3.org/2000/svg">
+    <!-- Title and Main Container -->
+    <rect x="0" y="0" width="2000" height="3000" fill="white"/>
+    <text x="50" y="40" font-family="Arial" font-size="32" font-weight="bold">Complete JVM Architecture and All Parameters</text>
+
+    <!-- Header Description -->
+    <rect x="50" y="60" width="1900" height="60" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="70" y="95" font-family="Arial" font-size="20">Java Virtual Machine - Complete Memory Structure and All Configuration Parameters</text>
+
+    <!-- RUNTIME DATA AREAS -->
+    <!-- Heap Memory Section -->
+    <rect x="50" y="140" width="1900" height="600" fill="#e3f2fd" stroke="#90caf9"/>
+    <text x="70" y="170" font-family="Arial" font-size="24" font-weight="bold">Heap Memory</text>
+
+    <!-- Basic Heap Settings -->
+    <rect x="70" y="190" width="1860" height="100" fill="#bbdefb" stroke="#64b5f6"/>
+    <text x="90" y="210" font-family="Arial" font-size="18" font-weight="bold">Basic Heap Settings</text>
+    <text x="90" y="235" font-family="Arial" font-size="14">-Xms - Initial heap size</text>
+    <text x="90" y="255" font-family="Arial" font-size="14">-Xmx - Maximum heap size</text>
+    <text x="400" y="235" font-family="Arial" font-size="14">-XX:MinHeapFreeRatio=percent</text>
+    <text x="400" y="255" font-family="Arial" font-size="14">-XX:MaxHeapFreeRatio=percent</text>
+    <text x="700" y="235" font-family="Arial" font-size="14">-XX:+AlwaysPreTouch</text>
+    <text x="700" y="255" font-family="Arial" font-size="14">-XX:+UseAdaptiveGCBoundary</text>
+
+    <!-- Young Generation -->
+    <rect x="70" y="300" width="1860" height="200" fill="#bbdefb" stroke="#64b5f6"/>
+    <text x="90" y="320" font-family="Arial" font-size="18" font-weight="bold">Young Generation</text>
+    <!-- Eden Space -->
+    <text x="90" y="345" font-family="Arial" font-size="16" font-weight="bold">Eden Space:</text>
+    <text x="90" y="365" font-family="Arial" font-size="14">-Xmn - Young generation size</text>
+    <text x="90" y="385" font-family="Arial" font-size="14">-XX:NewSize=size</text>
+    <text x="90" y="405" font-family="Arial" font-size="14">-XX:MaxNewSize=size</text>
+    <!-- Survivor Spaces -->
+    <text x="400" y="345" font-family="Arial" font-size="16" font-weight="bold">Survivor Spaces:</text>
+    <text x="400" y="365" font-family="Arial" font-size="14">-XX:SurvivorRatio=ratio</text>
+    <text x="400" y="385" font-family="Arial" font-size="14">-XX:TargetSurvivorRatio=ratio</text>
+    <text x="400" y="405" font-family="Arial" font-size="14">-XX:InitialSurvivorRatio=ratio</text>
+    <text x="700" y="345" font-family="Arial" font-size="16" font-weight="bold">Additional Settings:</text>
+    <text x="700" y="365" font-family="Arial" font-size="14">-XX:NewRatio=ratio</text>
+    <text x="700" y="385" font-family="Arial" font-size="14">-XX:MaxTenuringThreshold=threshold</text>
+    <text x="700" y="405" font-family="Arial" font-size="14">-XX:InitialTenuringThreshold=threshold</text>
+
+    <!-- Old Generation -->
+    <rect x="70" y="510" width="1860" height="200" fill="#bbdefb" stroke="#64b5f6"/>
+    <text x="90" y="530" font-family="Arial" font-size="18" font-weight="bold">Old Generation (Tenured)</text>
+    <text x="90" y="555" font-family="Arial" font-size="14">-XX:MaxHeapFreeRatio=percent</text>
+    <text x="90" y="575" font-family="Arial" font-size="14">-XX:MinHeapFreeRatio=percent</text>
+    <text x="400" y="555" font-family="Arial" font-size="14">-XX:InitialTenuringThreshold=threshold</text>
+    <text x="400" y="575" font-family="Arial" font-size="14">-XX:MaxTenuringThreshold=threshold</text>
+    <text x="700" y="555" font-family="Arial" font-size="14">-XX:+AggressiveHeap</text>
+    <text x="700" y="575" font-family="Arial" font-size="14">-XX:+UseAdaptiveGCBoundary</text>
+
+    <!-- NON-HEAP MEMORY -->
+    <rect x="50" y="760" width="1900" height="500" fill="#fff3e0" stroke="#ffe0b2"/>
+    <text x="70" y="790" font-family="Arial" font-size="24" font-weight="bold">Non-Heap Memory</text>
+
+    <!-- Metaspace -->
+    <rect x="70" y="810" width="1860" height="200" fill="#ffe0b2" stroke="#ffcc80"/>
+    <text x="90" y="830" font-family="Arial" font-size="18" font-weight="bold">Metaspace</text>
+    <text x="90" y="855" font-family="Arial" font-size="14">-XX:MetaspaceSize=size</text>
+    <text x="90" y="875" font-family="Arial" font-size="14">-XX:MaxMetaspaceSize=size</text>
+    <text x="90" y="895" font-family="Arial" font-size="14">-XX:MinMetaspaceFreeRatio=percent</text>
+    <text x="90" y="915" font-family="Arial" font-size="14">-XX:MaxMetaspaceFreeRatio=percent</text>
+    <text x="400" y="855" font-family="Arial" font-size="14">-XX:CompressedClassSpaceSize=size</text>
+    <text x="400" y="875" font-family="Arial" font-size="14">-XX:+UseCompressedOops</text>
+    <text x="400" y="895" font-family="Arial" font-size="14">-XX:+UseCompressedClassPointers</text>
+    <text x="700" y="855" font-family="Arial" font-size="14">-XX:MetaspaceReclaimPolicy=balanced|aggressive|none</text>
+    <text x="700" y="875" font-family="Arial" font-size="14">-XX:+ClassUnloadingWithConcurrentMark</text>
+
+    <!-- Direct Memory -->
+    <rect x="70" y="1020" width="1860" height="100" fill="#ffe0b2" stroke="#ffcc80"/>
+    <text x="90" y="1040" font-family="Arial" font-size="18" font-weight="bold">Direct Memory</text>
+    <text x="90" y="1065" font-family="Arial" font-size="14">-XX:MaxDirectMemorySize=size</text>
+    <text x="400" y="1065" font-family="Arial" font-size="14">-XX:NativeMemoryTracking=[off|summary|detail]</text>
+
+    <!-- GARBAGE COLLECTION -->
+    <rect x="50" y="1280" width="1900" height="600" fill="#fce4ec" stroke="#f8bbd0"/>
+    <text x="70" y="1310" font-family="Arial" font-size="24" font-weight="bold">Garbage Collection</text>
+
+    <!-- GC Selection -->
+    <rect x="70" y="1330" width="1860" height="150" fill="#f8bbd0" stroke="#f48fb1"/>
+    <text x="90" y="1350" font-family="Arial" font-size="18" font-weight="bold">Collector Selection</text>
+    <text x="90" y="1375" font-family="Arial" font-size="14">-XX:+UseSerialGC</text>
+    <text x="90" y="1395" font-family="Arial" font-size="14">-XX:+UseParallelGC</text>
+    <text x="90" y="1415" font-family="Arial" font-size="14">-XX:+UseParallelOldGC</text>
+    <text x="400" y="1375" font-family="Arial" font-size="14">-XX:+UseG1GC</text>
+    <text x="400" y="1395" font-family="Arial" font-size="14">-XX:+UseZGC</text>
+    <text x="400" y="1415" font-family="Arial" font-size="14">-XX:+UseShenandoahGC</text>
+
+    <!-- G1 Specific -->
+    <rect x="70" y="1490" width="920" height="200" fill="#f8bbd0" stroke="#f48fb1"/>
+    <text x="90" y="1510" font-family="Arial" font-size="18" font-weight="bold">G1 GC Settings</text>
+    <text x="90" y="1535" font-family="Arial" font-size="14">-XX:G1HeapRegionSize=size</text>
+    <text x="90" y="1555" font-family="Arial" font-size="14">-XX:G1NewSizePercent=percent</text>
+    <text x="90" y="1575" font-family="Arial" font-size="14">-XX:G1MaxNewSizePercent=percent</text>
+    <text x="90" y="1595" font-family="Arial" font-size="14">-XX:G1ReservePercent=percent</text>
+    <text x="400" y="1535" font-family="Arial" font-size="14">-XX:G1HeapWastePercent=percent</text>
+    <text x="400" y="1555" font-family="Arial" font-size="14">-XX:G1MixedGCLiveThresholdPercent=percent</text>
+    <text x="400" y="1575" font-family="Arial" font-size="14">-XX:G1RSetUpdatingPauseTimePercent=percent</text>
+
+    <!-- ZGC Specific -->
+    <rect x="1000" y="1490" width="930" height="200" fill="#f8bbd0" stroke="#f48fb1"/>
+    <text x="1020" y="1510" font-family="Arial" font-size="18" font-weight="bold">Z GC Settings</text>
+    <text x="1020" y="1535" font-family="Arial" font-size="14">-XX:ZAllocationSpikeTolerance=factor</text>
+    <text x="1020" y="1555" font-family="Arial" font-size="14">-XX:ZCollectionInterval=seconds</text>
+    <text x="1020" y="1575" font-family="Arial" font-size="14">-XX:ZFragmentationLimit=percent</text>
+    <text x="1020" y="1595" font-family="Arial" font-size="14">-XX:ZMarkStackSpaceLimit=size</text>
+
+    <!-- GC Threads and Timing -->
+    <rect x="70" y="1700" width="1860" height="150" fill="#f8bbd0" stroke="#f48fb1"/>
+    <text x="90" y="1720" font-family="Arial" font-size="18" font-weight="bold">GC Threads and Timing</text>
+    <text x="90" y="1745" font-family="Arial" font-size="14">-XX:ParallelGCThreads=threads</text>
+    <text x="90" y="1765" font-family="Arial" font-size="14">-XX:ConcGCThreads=threads</text>
+    <text x="400" y="1745" font-family="Arial" font-size="14">-XX:MaxGCPauseMillis=time</text>
+    <text x="400" y="1765" font-family="Arial" font-size="14">-XX:GCTimeRatio=ratio</text>
+
+    <!-- RUNTIME AND JIT -->
+    <rect x="50" y="1900" width="1900" height="400" fill="#e8f5e9" stroke="#c8e6c9"/>
+    <text x="70" y="1930" font-family="Arial" font-size="24" font-weight="bold">Runtime and JIT Compilation</text>
+
+    <!-- JIT Settings -->
+    <rect x="70" y="1950" width="1860" height="150" fill="#c8e6c9" stroke="#a5d6a7"/>
+    <text x="90" y="1970" font-family="Arial" font-size="18" font-weight="bold">JIT Compilation</text>
+    <text x="90" y="1995" font-family="Arial" font-size="14">-XX:+TieredCompilation</text>
+    <text x="90" y="2015" font-family="Arial" font-size="14">-XX:CICompilerCount=threads</text>
+    <text x="90" y="2035" font-family="Arial" font-size="14">-XX:CompileThreshold=invocations</text>
+    <text x="400" y="1995" font-family="Arial" font-size="14">-XX:TieredStopAtLevel=level</text>
+    <text x="400" y="2015" font-family="Arial" font-size="14">-XX:+UseCodeCacheFlushing</text>
+    <text x="700" y="1995" font-family="Arial" font-size="14">-XX:InitialCodeCacheSize=size</text>
+    <text x="700" y="2015" font-family="Arial" font-size="14">-XX:ReservedCodeCacheSize=size</text>
+
+    <!-- Runtime Optimizations -->
+    <rect x="70" y="2110" width="1860" height="150" fill="#c8e6c9" stroke="#a5d6a7"/>
+    <text x="90" y="2130" font-family="Arial" font-size="18" font-weight="bold">Runtime Optimizations</text>
+    <text x="90" y="2155" font-family="Arial" font-size="14">-XX:+UseLargePages</text>
+    <text x="90" y="2175" font-family="Arial" font-size="14">-XX:LargePageSizeInBytes=size</text>
+    <text x="90" y="2195" font-family="Arial" font-size="14">-XX:+UseNUMA</text>
+    <text x="400" y="2155" font-family="Arial" font-size="14">-XX:+AggressiveOpts</text>
+    <text x="400" y="2175" font-family="Arial" font-size="14">-XX:+UseStringDeduplication</text>
+    <text x="400" y="2195" font-family="Arial" font-size="14">-XX:+UseBiasedLocking</text>
+    <text x="700" y="2155" font-family="Arial" font-size="14">-XX:+UseSpinning</text>
+    <text x="700" y="2175" font-family="Arial" font-size="14">-XX:PreBlockSpin=iterations</text>
+    <text x="700" y="2195" font-family="Arial" font-size="14">-XX:+UseThreadPriorities</text>
+
+</svg>
