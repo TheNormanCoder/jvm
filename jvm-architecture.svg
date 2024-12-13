@@ -64,8 +64,8 @@
     <text x="700" y="1010" font-family="Arial" font-size="28">-XX:CompressedClassSpaceSize=size</text>
     <text x="700" y="1040" font-family="Arial" font-size="28">-XX:+UseCompressedOops</text>
     <text x="700" y="1070" font-family="Arial" font-size="28">-XX:+UseCompressedClassPointers</text>
-    <text x="1100" y="1010" font-family="Arial" font-size="28">-XX:MetaspaceReclaimPolicy=balanced|aggressive|none</text>
-    <text x="1100" y="1040" font-family="Arial" font-size="28">-XX:+ClassUnloadingWithConcurrentMark</text>
+    <text x="1200" y="1010" font-family="Arial" font-size="28">-XX:MetaspaceReclaimPolicy=balanced|aggressive|none</text>
+    <text x="1200" y="1040" font-family="Arial" font-size="28">-XX:+ClassUnloadingWithConcurrentMark</text>
 
     <!-- Direct Memory -->
     <rect x="70" y="1210" width="2260" height="120" fill="#ffe0b2" stroke="#ffcc80"/>
