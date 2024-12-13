@@ -71,7 +71,7 @@
     <rect x="70" y="1210" width="2260" height="120" fill="#ffe0b2" stroke="#ffcc80"/>
     <text x="90" y="1240" font-family="Arial" font-size="32" font-weight="bold">Direct Memory</text>
     <text x="90" y="1270" font-family="Arial" font-size="28">-XX:MaxDirectMemorySize=size</text>
-    <text x="500" y="1270" font-family="Arial" font-size="28">-XX:NativeMemoryTracking=[off|summary|detail]</text>
+    <text x="700" y="1270" font-family="Arial" font-size="28">-XX:NativeMemoryTracking=[off|summary|detail]</text>
 
     <!-- GARBAGE COLLECTION -->
     <rect x="50" y="1350" width="2300" height="800" fill="#fce4ec" stroke="#f8bbd0"/>
