@@ -24,7 +24,7 @@
 
     <!-- Young Generation -->
     <rect x="70" y="370" width="2260" height="240" fill="#bbdefb" stroke="#64b5f6"/>
-    <text x="90" y="400" font-family="Arial" font-size="40" font-weight="bold">Young Generation</text>
+    <text x="90" y="400" font-family="Arial" font-size="32" font-weight="bold">Young Generation</text>
     <!-- Eden Space -->
     <text x="90" y="430" font-family="Arial" font-size="32" font-weight="bold">Eden Space:</text>
     <text x="90" y="460" font-family="Arial" font-size="28">-Xmn - Young generation size</text>
@@ -45,10 +45,10 @@
     <text x="90" y="660" font-family="Arial" font-size="32" font-weight="bold">Old Generation (Tenured)</text>
     <text x="90" y="690" font-family="Arial" font-size="28">-XX:MaxHeapFreeRatio=percent</text>
     <text x="90" y="720" font-family="Arial" font-size="28">-XX:MinHeapFreeRatio=percent</text>
-    <text x="500" y="690" font-family="Arial" font-size="28">-XX:InitialTenuringThreshold=threshold</text>
-    <text x="500" y="720" font-family="Arial" font-size="28">-XX:MaxTenuringThreshold=threshold</text>
-    <text x="900" y="690" font-family="Arial" font-size="28">-XX:+AggressiveHeap</text>
-    <text x="900" y="720" font-family="Arial" font-size="28">-XX:+UseAdaptiveGCBoundary</text>
+    <text x="700" y="690" font-family="Arial" font-size="28">-XX:InitialTenuringThreshold=threshold</text>
+    <text x="700" y="720" font-family="Arial" font-size="28">-XX:MaxTenuringThreshold=threshold</text>
+    <text x="1200" y="690" font-family="Arial" font-size="28">-XX:+AggressiveHeap</text>
+    <text x="1200" y="720" font-family="Arial" font-size="28">-XX:+UseAdaptiveGCBoundary</text>
 
     <!-- NON-HEAP MEMORY -->
     <rect x="50" y="890" width="2300" height="600" fill="#fff3e0" stroke="#ffe0b2"/>
