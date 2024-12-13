@@ -106,7 +106,7 @@
 
     <text x="90" y="3100" font-family="Arial" font-size="32" font-weight="bold">Memory Analysis</text>
     <text x="110" y="3160" font-family="Arial" font-size="28">-XX:+HeapDumpOnOutOfMemoryError</text>
-    <text x="500" y="3160" font-family="Arial" font-size="28">Create heap dump on OutOfMemoryError.</text>
+    <text x="600" y="3160" font-family="Arial" font-size="28">Create heap dump on OutOfMemoryError.</text>
     
     <text x="110" y="3220" font-family="Arial" font-size="28">-XX:HeapDumpPath</text>
     <text x="500" y="3220" font-family="Arial" font-size="28">Location for heap dumps.</text>
