@@ -96,7 +96,7 @@
     <text x="90" y="1760" font-family="Arial" font-size="28">-XX:G1ReservePercent=percent</text>
     <text x="90" y="1790" font-family="Arial" font-size="28">-XX:G1MixedGCLiveThresholdPercent=percent</text>
     <text x="90" y="1820" font-family="Arial" font-size="28">-XX:G1RSetUpdatingPauseTimePercent=percent</text>
-    <text x="700" y="1610" font-family="Arial" font-size="28">-XX:G1HeapWastePercent=percent</text>
+    <text x="700" y="1670" font-family="Arial" font-size="28">-XX:G1HeapWastePercent=percent</text>
     
 
     <!-- ZGC Specific -->
