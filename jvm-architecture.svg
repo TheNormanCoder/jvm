@@ -17,10 +17,10 @@
     <text x="90" y="260" font-family="Arial" font-size="32" font-weight="bold">Basic Heap Settings</text>
     <text x="90" y="290" font-family="Arial" font-size="28">-Xms - Initial heap size</text>
     <text x="90" y="320" font-family="Arial" font-size="28">-Xmx - Maximum heap size</text>
-    <text x="500" y="290" font-family="Arial" font-size="28">-XX:MinHeapFreeRatio=percent</text>
-    <text x="500" y="320" font-family="Arial" font-size="28">-XX:MaxHeapFreeRatio=percent</text>
-    <text x="900" y="290" font-family="Arial" font-size="28">-XX:+AlwaysPreTouch</text>
-    <text x="900" y="320" font-family="Arial" font-size="28">-XX:+UseAdaptiveGCBoundary</text>
+    <text x="700" y="290" font-family="Arial" font-size="28">-XX:MinHeapFreeRatio=percent</text>
+    <text x="700" y="320" font-family="Arial" font-size="28">-XX:MaxHeapFreeRatio=percent</text>
+    <text x="1200" y="290" font-family="Arial" font-size="28">-XX:+AlwaysPreTouch</text>
+    <text x="1200" y="320" font-family="Arial" font-size="28">-XX:+UseAdaptiveGCBoundary</text>
 
     <!-- Young Generation -->
     <rect x="70" y="370" width="2260" height="240" fill="#bbdefb" stroke="#64b5f6"/>
