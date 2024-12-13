@@ -99,17 +99,17 @@
     <!-- Debug Options -->
     <text x="90" y="2900" font-family="Arial" font-size="32" font-weight="bold">GC Logging</text>
     <text x="110" y="2960" font-family="Arial" font-size="28">-XX:+PrintGCDetails</text>
-    <text x="500" y="2960" font-family="Arial" font-size="28">Print detailed garbage collection information.</text>
+    <text x="700" y="2960" font-family="Arial" font-size="28">Print detailed garbage collection information.</text>
     
     <text x="110" y="3020" font-family="Arial" font-size="28">-XX:+PrintGCTimeStamps</text>
-    <text x="500" y="3020" font-family="Arial" font-size="28">Add timestamps to GC logs.</text>
+    <text x="700" y="3020" font-family="Arial" font-size="28">Add timestamps to GC logs.</text>
 
     <text x="90" y="3100" font-family="Arial" font-size="32" font-weight="bold">Memory Analysis</text>
     <text x="110" y="3160" font-family="Arial" font-size="28">-XX:+HeapDumpOnOutOfMemoryError</text>
-    <text x="600" y="3160" font-family="Arial" font-size="28">Create heap dump on OutOfMemoryError.</text>
+    <text x="700" y="3160" font-family="Arial" font-size="28">Create heap dump on OutOfMemoryError.</text>
     
     <text x="110" y="3220" font-family="Arial" font-size="28">-XX:HeapDumpPath</text>
-    <text x="500" y="3220" font-family="Arial" font-size="28">Location for heap dumps.</text>
+    <text x="700" y="3220" font-family="Arial" font-size="28">Location for heap dumps.</text>
 
     <!-- Notes -->
     <rect x="50" y="3600" width="2300" height="400" fill="#f5f5f5" stroke="#e0e0e0"/>
