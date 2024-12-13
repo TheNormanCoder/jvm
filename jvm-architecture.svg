@@ -61,11 +61,11 @@
     <text x="90" y="1040" font-family="Arial" font-size="28">-XX:MaxMetaspaceSize=size</text>
     <text x="90" y="1070" font-family="Arial" font-size="28">-XX:MinMetaspaceFreeRatio=percent</text>
     <text x="90" y="1100" font-family="Arial" font-size="28">-XX:MaxMetaspaceFreeRatio=percent</text>
-    <text x="500" y="1010" font-family="Arial" font-size="28">-XX:CompressedClassSpaceSize=size</text>
-    <text x="500" y="1040" font-family="Arial" font-size="28">-XX:+UseCompressedOops</text>
-    <text x="500" y="1070" font-family="Arial" font-size="28">-XX:+UseCompressedClassPointers</text>
-    <text x="900" y="1010" font-family="Arial" font-size="28">-XX:MetaspaceReclaimPolicy=balanced|aggressive|none</text>
-    <text x="900" y="1040" font-family="Arial" font-size="28">-XX:+ClassUnloadingWithConcurrentMark</text>
+    <text x="700" y="1010" font-family="Arial" font-size="28">-XX:CompressedClassSpaceSize=size</text>
+    <text x="700" y="1040" font-family="Arial" font-size="28">-XX:+UseCompressedOops</text>
+    <text x="700" y="1070" font-family="Arial" font-size="28">-XX:+UseCompressedClassPointers</text>
+    <text x="1100" y="1010" font-family="Arial" font-size="28">-XX:MetaspaceReclaimPolicy=balanced|aggressive|none</text>
+    <text x="1100" y="1040" font-family="Arial" font-size="28">-XX:+ClassUnloadingWithConcurrentMark</text>
 
     <!-- Direct Memory -->
     <rect x="70" y="1210" width="2260" height="120" fill="#ffe0b2" stroke="#ffcc80"/>
@@ -94,9 +94,10 @@
     <text x="90" y="1700" font-family="Arial" font-size="28">-XX:G1NewSizePercent=percent</text>
     <text x="90" y="1730" font-family="Arial" font-size="28">-XX:G1MaxNewSizePercent=percent</text>
     <text x="90" y="1760" font-family="Arial" font-size="28">-XX:G1ReservePercent=percent</text>
-    <text x="500" y="1670" font-family="Arial" font-size="28">-XX:G1HeapWastePercent=percent</text>
-    <text x="500" y="1700" font-family="Arial" font-size="28">-XX:G1MixedGCLiveThresholdPercent=percent</text>
-    <text x="500" y="1730" font-family="Arial" font-size="28">-XX:G1RSetUpdatingPauseTimePercent=percent</text>
+    <text x="90" y="1790" font-family="Arial" font-size="28">-XX:G1MixedGCLiveThresholdPercent=percent</text>
+    <text x="90" y="1820" font-family="Arial" font-size="28">-XX:G1RSetUpdatingPauseTimePercent=percent</text>
+    <text x="700" y="1610" font-family="Arial" font-size="28">-XX:G1HeapWastePercent=percent</text>
+    
 
     <!-- ZGC Specific -->
     <rect x="1190" y="1610" width="1140" height="240" fill="#f8bbd0" stroke="#f48fb1"/>
