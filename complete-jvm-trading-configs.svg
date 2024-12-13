@@ -19,38 +19,38 @@
 
     <!-- 2. G1GC BALANCED -->
     <rect x="50" y="500" width="2300" height="400" fill="#fff3e0" stroke="#ffe0b2"/>
-    <text x="70" y="540" font-family="Arial" font-size="32" font-weight="bold">2. G1GC Balanced Configuration</text>
+    <text x="70" y="540" font-family="Arial" font-size="40" font-weight="bold">2. G1GC Balanced Configuration</text>
     
-    <text x="90" y="590" font-family="Arial" font-size="30" font-weight="bold">Heap and Memory:</text>
+    <text x="90" y="590" font-family="Arial" font-size="32" font-weight="bold">Heap and Memory:</text>
     <text x="110" y="620" font-family="Arial" font-size="28">-Xms12g -Xmx12g</text>
     <text x="110" y="650" font-family="Arial" font-size="28">-XX:+AlwaysPreTouch</text>
     <text x="110" y="680" font-family="Arial" font-size="28">-XX:+UseCompressedOops</text>
     <text x="110" y="710" font-family="Arial" font-size="28">-XX:+UseCompressedClassPointers</text>
 
-    <text x="90" y="760" font-family="Arial" font-size="30" font-weight="bold">G1GC Settings:</text>
+    <text x="90" y="760" font-family="Arial" font-size="32" font-weight="bold">G1GC Settings:</text>
     <text x="110" y="790" font-family="Arial" font-size="28">-XX:+UseG1GC</text>
     <text x="110" y="820" font-family="Arial" font-size="28">-XX:MaxGCPauseMillis=50</text>
     <text x="110" y="850" font-family="Arial" font-size="28">-XX:G1HeapRegionSize=16m</text>
 
     <!-- 3. HIGH THROUGHPUT -->
     <rect x="50" y="920" width="2300" height="400" fill="#fce4ec" stroke="#f8bbd0"/>
-    <text x="70" y="960" font-family="Arial" font-size="32" font-weight="bold">3. High Throughput Configuration</text>
+    <text x="70" y="960" font-family="Arial" font-size="40" font-weight="bold">3. High Throughput Configuration</text>
     
-    <text x="90" y="1010" font-family="Arial" font-size="30" font-weight="bold">Memory Settings:</text>
+    <text x="90" y="1010" font-family="Arial" font-size="32" font-weight="bold">Memory Settings:</text>
     <text x="110" y="1040" font-family="Arial" font-size="28">-Xms20g -Xmx20g</text>
     <text x="110" y="1070" font-family="Arial" font-size="28">-XX:+UseLargePages</text>
     <text x="110" y="1100" font-family="Arial" font-size="28">-XX:LargePageSizeInBytes=2m</text>
 
-    <text x="90" y="1150" font-family="Arial" font-size="30" font-weight="bold">Parallel GC:</text>
+    <text x="90" y="1150" font-family="Arial" font-size="32" font-weight="bold">Parallel GC:</text>
     <text x="110" y="1180" font-family="Arial" font-size="28">-XX:+UseParallelGC</text>
     <text x="110" y="1210" font-family="Arial" font-size="28">-XX:ParallelGCThreads=8</text>
     <text x="110" y="1240" font-family="Arial" font-size="28">-XX:MaxGCPauseMillis=100</text>
 
     <!-- 4. MEMORY-CONSTRAINED -->
     <rect x="50" y="1340" width="2300" height="400" fill="#e8f5e9" stroke="#c8e6c9"/>
-    <text x="70" y="1380" font-family="Arial" font-size="32" font-weight="bold">4. Memory-Constrained Configuration</text>
+    <text x="70" y="1380" font-family="Arial" font-size="40" font-weight="bold">4. Memory-Constrained Configuration</text>
     
-    <text x="90" y="1430" font-family="Arial" font-size="30" font-weight="bold">Conservative Settings:</text>
+    <text x="90" y="1430" font-family="Arial" font-size="32" font-weight="bold">Conservative Settings:</text>
     <text x="110" y="1460" font-family="Arial" font-size="28">-Xms4g -Xmx4g</text>
     <text x="110" y="1490" font-family="Arial" font-size="28">-XX:+UseG1GC</text>
     <text x="110" y="1520" font-family="Arial" font-size="28">-XX:MaxGCPauseMillis=100</text>
@@ -60,9 +60,9 @@
 
     <!-- 5. HYBRID -->
     <rect x="50" y="1760" width="2300" height="400" fill="#f3e5f5" stroke="#e1bee7"/>
-    <text x="70" y="1800" font-family="Arial" font-size="32" font-weight="bold">5. Hybrid Configuration</text>
+    <text x="70" y="1800" font-family="Arial" font-size="40" font-weight="bold">5. Hybrid Configuration</text>
     
-    <text x="90" y="1850" font-family="Arial" font-size="30" font-weight="bold">Balanced Settings:</text>
+    <text x="90" y="1850" font-family="Arial" font-size="32" font-weight="bold">Balanced Settings:</text>
     <text x="110" y="1880" font-family="Arial" font-size="28">-Xms8g -Xmx8g</text>
     <text x="110" y="1910" font-family="Arial" font-size="28">-XX:+UseG1GC</text>
     <text x="110" y="1940" font-family="Arial" font-size="28">-XX:MaxGCPauseMillis=75</text>
@@ -72,28 +72,28 @@
 
     <!-- HARDWARE CONSIDERATIONS -->
     <rect x="50" y="2180" width="2300" height="400" fill="#e0f7fa" stroke="#b2ebf2"/>
-    <text x="70" y="2220" font-family="Arial" font-size="32" font-weight="bold">Hardware Considerations</text>
+    <text x="70" y="2220" font-family="Arial" font-size="40" font-weight="bold">Hardware Considerations</text>
     
-    <text x="90" y="2270" font-family="Arial" font-size="30" font-weight="bold">Server Types:</text>
+    <text x="90" y="2270" font-family="Arial" font-size="32" font-weight="bold">Server Types:</text>
     <text x="110" y="2300" font-family="Arial" font-size="28">• Dedicated Servers → Configurations 1 or 3</text>
     <text x="110" y="2330" font-family="Arial" font-size="28">• Cloud/Virtualized → Configurations 2 or 4</text>
     <text x="110" y="2360" font-family="Arial" font-size="28">• NUMA Architecture → Configuration 5</text>
     
-    <text x="90" y="2410" font-family="Arial" font-size="30" font-weight="bold">Hardware Requirements:</text>
+    <text x="90" y="2410" font-family="Arial" font-size="32" font-weight="bold">Hardware Requirements:</text>
     <text x="110" y="2440" font-family="Arial" font-size="28">• Fast CPU with multiple cores for GC threads</text>
     <text x="110" y="2470" font-family="Arial" font-size="28">• High-bandwidth memory system</text>
     <text x="110" y="2500" font-family="Arial" font-size="28">• Low-latency network interfaces</text>
 
     <!-- TESTING AND TUNING -->
     <rect x="50" y="2600" width="2300" height="600" fill="#f5f5f5" stroke="#e0e0e0"/>
-    <text x="70" y="2640" font-family="Arial" font-size="32" font-weight="bold">Testing and Tuning Process</text>
+    <text x="70" y="2640" font-family="Arial" font-size="40" font-weight="bold">Testing and Tuning Process</text>
     
-    <text x="90" y="2690" font-family="Arial" font-size="30" font-weight="bold">Benchmarking:</text>
+    <text x="90" y="2690" font-family="Arial" font-size="32" font-weight="bold">Benchmarking:</text>
     <text x="110" y="2720" font-family="Arial" font-size="28">• Use realistic trading workloads</text>
     <text x="110" y="2750" font-family="Arial" font-size="28">• Test with expected peak volumes</text>
     <text x="110" y="2780" font-family="Arial" font-size="28">• Include market data feed simulation</text>
 
-    <text x="90" y="2830" font-family="Arial" font-size="30" font-weight="bold">Iterative Tuning:</text>
+    <text x="90" y="2830" font-family="Arial" font-size="32" font-weight="bold">Iterative Tuning:</text>
     <text x="110" y="2860" font-family="Arial" font-size="28">1. Start with base configuration</text>
     <text x="110" y="2890" font-family="Arial" font-size="28">2. Monitor performance metrics</text>
     <text x="110" y="2920" font-family="Arial" font-size="28">3. Adjust parameters incrementally</text>
@@ -102,15 +102,15 @@
 
     <!-- MONITORING AND PROFILING -->
     <rect x="50" y="3220" width="2300" height="500" fill="#fafafa" stroke="#f5f5f5"/>
-    <text x="70" y="3260" font-family="Arial" font-size="32" font-weight="bold">Monitoring and Profiling</text>
+    <text x="70" y="3260" font-family="Arial" font-size="40" font-weight="bold">Monitoring and Profiling</text>
     
-    <text x="90" y="3310" font-family="Arial" font-size="30" font-weight="bold">Key Metrics to Monitor:</text>
+    <text x="90" y="3310" font-family="Arial" font-size="32" font-weight="bold">Key Metrics to Monitor:</text>
     <text x="110" y="3340" font-family="Arial" font-size="28">• Trade execution latency (min/max/avg)</text>
     <text x="110" y="3370" font-family="Arial" font-size="28">• GC pause durations and frequency</text>
     <text x="110" y="3400" font-family="Arial" font-size="28">• Heap utilization patterns</text>
     <text x="110" y="3430" font-family="Arial" font-size="28">• Thread contention rates</text>
     
-    <text x="90" y="3480" font-family="Arial" font-size="30" font-weight="bold">Profiling Tools:</text>
+    <text x="90" y="3480" font-family="Arial" font-size="32" font-weight="bold">Profiling Tools:</text>
     <text x="110" y="3510" font-family="Arial" font-size="28">• JFR (Java Flight Recorder) for runtime analysis</text>
     <text x="110" y="3540" font-family="Arial" font-size="28">• Async-profiler for low-overhead profiling</text>
     <text x="110" y="3570" font-family="Arial" font-size="28">• JMX monitoring for real-time metrics</text>
@@ -118,9 +118,9 @@
 
     <!-- TRADING PATTERNS -->
     <rect x="50" y="3740" width="2300" height="400" fill="#f3e5f5" stroke="#e1bee7"/>
-    <text x="70" y="3780" font-family="Arial" font-size="32" font-weight="bold">Trading Pattern Recommendations</text>
+    <text x="70" y="3780" font-family="Arial" font-size="40" font-weight="bold">Trading Pattern Recommendations</text>
     
-    <text x="90" y="3830" font-family="Arial" font-size="30" font-weight="bold">Strategy-Specific Configurations:</text>
+    <text x="90" y="3830" font-family="Arial" font-size="32" font-weight="bold">Strategy-Specific Configurations:</text>
     <text x="110" y="3860" font-family="Arial" font-size="28">• HFT → Configuration 1 (Ultra-Low Latency)</text>
     <text x="110" y="3890" font-family="Arial" font-size="28">• Algorithmic Trading → Configurations 2 or 5</text>
     <text x="110" y="3920" font-family="Arial" font-size="28">• Market Making → Configuration 1 or 2</text>
