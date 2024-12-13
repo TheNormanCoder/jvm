@@ -9,3 +9,6 @@
 
 # JVM Performance Tuning
 ![JVM Performance Tuning](./jvm-performance-tuning.svg)
+
+# JVM Trading Configurations
+![JVM Trading Configurations](./complete-jvm-trading-configs.svg)
