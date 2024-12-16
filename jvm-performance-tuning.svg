@@ -1,10 +1,10 @@
-<svg viewBox="0 0 2400 3600" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 2400 2500" xmlns="http://www.w3.org/2000/svg">
     <!-- Title -->
-    <rect x="0" y="0" width="2400" height="3600" fill="white"/>
+    <rect x="0" y="0" width="2400" height="2500" fill="white"/>
     <text x="50" y="80" font-family="Arial" font-size="52" font-weight="bold">JVM Performance Tuning for Trading Applications</text>
 
     <!-- Critical Memory Settings -->
-    <rect x="50" y="120" width="2300" height="600" fill="#e3f2fd" stroke="#90caf9"/>
+    <rect x="50" y="120" width="2300" height="500" fill="#e3f2fd" stroke="#90caf9"/>
     <text x="70" y="180" font-family="Arial" font-size="40" font-weight="bold">Critical Memory Settings</text>
     
     <!-- Heap Configuration -->
@@ -22,63 +22,63 @@
     <text x="500" y="480" font-family="Arial" font-size="28">Use large pages for better performance</text>
 
     <!-- GC Configuration -->
-    <rect x="50" y="740" width="2300" height="800" fill="#fce4ec" stroke="#f8bbd0"/>
-    <text x="70" y="800" font-family="Arial" font-size="40" font-weight="bold">Garbage Collection Optimization</text>
+    <rect x="50" y="640" width="2300" height="450" fill="#fce4ec" stroke="#f8bbd0"/>
+    <text x="70" y="700" font-family="Arial" font-size="40" font-weight="bold">Garbage Collection Optimization</text>
     
     <!-- ZGC Settings -->
-    <text x="90" y="860" font-family="Arial" font-size="32" font-weight="bold">ZGC Configuration (Recommended for Trading)</text>
-    <text x="110" y="920" font-family="Arial" font-size="28">-XX:+UseZGC</text>
-    <text x="500" y="920" font-family="Arial" font-size="28">Use ZGC for ultra-low latency (sub-millisecond pauses)</text>
+    <text x="90" y="760" font-family="Arial" font-size="32" font-weight="bold">ZGC Configuration (Recommended for Trading)</text>
+    <text x="110" y="820" font-family="Arial" font-size="28">-XX:+UseZGC</text>
+    <text x="500" y="820" font-family="Arial" font-size="28">Use ZGC for ultra-low latency (sub-millisecond pauses)</text>
     
-    <text x="110" y="980" font-family="Arial" font-size="28">-XX:ZCollectionInterval=5</text>
-    <text x="500" y="980" font-family="Arial" font-size="28">Run GC every 5 seconds minimum</text>
+    <text x="110" y="880" font-family="Arial" font-size="28">-XX:ZCollectionInterval=5</text>
+    <text x="500" y="880" font-family="Arial" font-size="28">Run GC every 5 seconds minimum</text>
     
-    <text x="110" y="1040" font-family="Arial" font-size="28">-XX:ConcGCThreads=2</text>
-    <text x="500" y="1040" font-family="Arial" font-size="28">Number of concurrent GC threads</text>
+    <text x="110" y="940" font-family="Arial" font-size="28">-XX:ConcGCThreads=2</text>
+    <text x="500" y="940" font-family="Arial" font-size="28">Number of concurrent GC threads</text>
     
-    <text x="110" y="1100" font-family="Arial" font-size="28">-XX:ZAllocationSpikeTolerance=2</text>
-    <text x="600" y="1100" font-family="Arial" font-size="28">Tolerance for allocation spikes</text>
+    <text x="110" y="1000" font-family="Arial" font-size="28">-XX:ZAllocationSpikeTolerance=2</text>
+    <text x="600" y="1000" font-family="Arial" font-size="28">Tolerance for allocation spikes</text>
 
     <!-- Compiler Settings -->
-    <rect x="50" y="1560" width="2300" height="600" fill="#e8f5e9" stroke="#c8e6c9"/>
-    <text x="70" y="1620" font-family="Arial" font-size="40" font-weight="bold">JIT Compiler Optimization</text>
+    <rect x="50" y="1110" width="2300" height="300" fill="#e8f5e9" stroke="#c8e6c9"/>
+    <text x="70" y="1170" font-family="Arial" font-size="40" font-weight="bold">JIT Compiler Optimization</text>
     
-    <text x="110" y="1680" font-family="Arial" font-size="28">-XX:+TieredCompilation</text>
-    <text x="500" y="1680" font-family="Arial" font-size="28">Enable tiered compilation for optimal performance</text>
+    <text x="110" y="1230" font-family="Arial" font-size="28">-XX:+TieredCompilation</text>
+    <text x="500" y="1230" font-family="Arial" font-size="28">Enable tiered compilation for optimal performance</text>
     
-    <text x="110" y="1740" font-family="Arial" font-size="28">-XX:ReservedCodeCacheSize=256m</text>
-    <text x="600" y="1740" font-family="Arial" font-size="28">Increase code cache for hot methods</text>
+    <text x="110" y="1290" font-family="Arial" font-size="28">-XX:ReservedCodeCacheSize=256m</text>
+    <text x="600" y="1290" font-family="Arial" font-size="28">Increase code cache for hot methods</text>
     
-    <text x="110" y="1800" font-family="Arial" font-size="28">-XX:InitialCodeCacheSize=256m</text>
-    <text x="600" y="1800" font-family="Arial" font-size="28">Pre-allocate code cache</text>
+    <text x="110" y="1350" font-family="Arial" font-size="28">-XX:InitialCodeCacheSize=256m</text>
+    <text x="600" y="1350" font-family="Arial" font-size="28">Pre-allocate code cache</text>
 
     <!-- Thread Settings -->
-    <rect x="50" y="2180" width="2300" height="500" fill="#fff3e0" stroke="#ffe0b2"/>
-    <text x="70" y="2240" font-family="Arial" font-size="40" font-weight="bold">Thread Optimization</text>
+    <rect x="50" y="1430" width="2300" height="300" fill="#fff3e0" stroke="#ffe0b2"/>
+    <text x="70" y="1490" font-family="Arial" font-size="40" font-weight="bold">Thread Optimization</text>
     
-    <text x="110" y="2300" font-family="Arial" font-size="28">-Xss256k</text>
-    <text x="500" y="2300" font-family="Arial" font-size="28">Reduce thread stack size for memory efficiency</text>
+    <text x="110" y="1550" font-family="Arial" font-size="28">-Xss256k</text>
+    <text x="500" y="1550" font-family="Arial" font-size="28">Reduce thread stack size for memory efficiency</text>
     
-    <text x="110" y="2360" font-family="Arial" font-size="28">-XX:+UseThreadPriorities</text>
-    <text x="500" y="2360" font-family="Arial" font-size="28">Enable thread priorities</text>
+    <text x="110" y="1610" font-family="Arial" font-size="28">-XX:+UseThreadPriorities</text>
+    <text x="500" y="1610" font-family="Arial" font-size="28">Enable thread priorities</text>
     
-    <text x="110" y="2420" font-family="Arial" font-size="28">-XX:ThreadPriorityPolicy=42</text>
-    <text x="500" y="2420" font-family="Arial" font-size="28">Map Java priorities to OS priorities</text>
+    <text x="110" y="1670" font-family="Arial" font-size="28">-XX:ThreadPriorityPolicy=42</text>
+    <text x="500" y="1670" font-family="Arial" font-size="28">Map Java priorities to OS priorities</text>
 
     <!-- Monitoring -->
-    <rect x="50" y="2700" width="2300" height="500" fill="#f3e5f5" stroke="#e1bee7"/>
-    <text x="70" y="2760" font-family="Arial" font-size="40" font-weight="bold">Performance Monitoring</text>
+    <rect x="50" y="1750" width="2300" height="300" fill="#f3e5f5" stroke="#e1bee7"/>
+    <text x="70" y="1810" font-family="Arial" font-size="40" font-weight="bold">Performance Monitoring</text>
     
-    <text x="110" y="2820" font-family="Arial" font-size="28">-XX:+PerfDisableSharedMem</text>
-    <text x="700" y="2820" font-family="Arial" font-size="28">Disable performance data sharing</text>
+    <text x="110" y="1870" font-family="Arial" font-size="28">-XX:+PerfDisableSharedMem</text>
+    <text x="700" y="1870" font-family="Arial" font-size="28">Disable performance data sharing</text>
     
-    <text x="110" y="2880" font-family="Arial" font-size="28">-Djava.security.egd=file:/dev/./urandom</text>
-    <text x="700" y="2880" font-family="Arial" font-size="28">Use non-blocking entropy source</text>
+    <text x="110" y="1930" font-family="Arial" font-size="28">-Djava.security.egd=file:/dev/./urandom</text>
+    <text x="700" y="1930" font-family="Arial" font-size="28">Use non-blocking entropy source</text>
 
     <!-- Notes -->
-    <rect x="50" y="3220" width="2300" height="300" fill="#f5f5f5" stroke="#e0e0e0"/>
-    <text x="70" y="3280" font-family="Arial" font-size="40" font-weight="bold">Important Performance Notes</text>
-    <text x="90" y="3340" font-family="Arial" font-size="28">• Isolate critical threads to specific CPU cores</text>
-    <text x="90" y="3400" font-family="Arial" font-size="28">• Use a real-time or low-latency kernel</text>
-    <text x="90" y="3460" font-family="Arial" font-size="28">• Monitor and adjust based on application metrics</text>
+    <rect x="50" y="2070" width="2300" height="300" fill="#f5f5f5" stroke="#e0e0e0"/>
+    <text x="70" y="2130" font-family="Arial" font-size="40" font-weight="bold">Important Performance Notes</text>
+    <text x="90" y="2190" font-family="Arial" font-size="28">• Isolate critical threads to specific CPU cores</text>
+    <text x="90" y="2250" font-family="Arial" font-size="28">• Use a real-time or low-latency kernel</text>
+    <text x="90" y="2310" font-family="Arial" font-size="28">• Monitor and adjust based on application metrics</text>
 </svg>
