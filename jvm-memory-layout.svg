@@ -1,112 +1,112 @@
-<svg viewBox="0 0 2400 2000" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 2400 2400" xmlns="http://www.w3.org/2000/svg">
     <!-- Title -->
-    <rect x="0" y="0" width="2400" height="2000" fill="white"/>
-    <text x="50" y="50" font-family="Arial" font-size="32" font-weight="bold">Complete JVM Architecture</text>
+    <rect x="0" y="0" width="2400" height="2400" fill="white"/>
+    <text x="50" y="70" font-family="Arial" font-size="48" font-weight="bold">Complete JVM Architecture</text>
 
     <!-- Class Loading Subsystem -->
-    <rect x="50" y="80" width="2300" height="300" fill="#fff3e0" stroke="#ffe0b2"/>
-    <text x="70" y="110" font-family="Arial" font-size="24" font-weight="bold">Class Loading Subsystem</text>
-    
-    <!-- Loading -->
-    <rect x="70" y="130" width="700" height="230" fill="#ffe0b2" stroke="#ffcc80"/>
-    <text x="90" y="160" font-family="Arial" font-size="20" font-weight="bold">Load</text>
-    <text x="110" y="190" font-family="Arial" font-size="18">Bootstrap Class Loader (rt.jar)</text>
-    <text x="110" y="220" font-family="Arial" font-size="18">Extension Class Loader (jre/lib/ext)</text>
-    <text x="110" y="250" font-family="Arial" font-size="18">Application Class Loader (CLASSPATH)</text>
+    <rect x="50" y="100" width="2300" height="400" fill="#fff3e0" stroke="#ffe0b2" stroke-width="2"/>
+    <text x="70" y="150" font-family="Arial" font-size="40" font-weight="bold">Class Loading Subsystem</text>
 
-    <!-- Linking -->
-    <rect x="790" y="130" width="700" height="230" fill="#ffe0b2" stroke="#ffcc80"/>
-    <text x="810" y="160" font-family="Arial" font-size="20" font-weight="bold">Link</text>
-    <text x="830" y="190" font-family="Arial" font-size="18">Verify</text>
-    <text x="830" y="220" font-family="Arial" font-size="18">Prepare</text>
-    <text x="830" y="250" font-family="Arial" font-size="18">Resolve</text>
+    <!-- Load -->
+    <rect x="70" y="170" width="700" height="300" fill="#ffe0b2" stroke="#ffcc80"/>
+    <text x="90" y="210" font-family="Arial" font-size="36" font-weight="bold">Load</text>
+    <text x="90" y="260" font-family="Arial" font-size="28">Bootstrap Class Loader (rt.jar)</text>
+    <text x="90" y="310" font-family="Arial" font-size="28">Extension Class Loader (jre/lib/ext)</text>
+    <text x="90" y="360" font-family="Arial" font-size="28">Application Class Loader (CLASSPATH)</text>
+
+    <!-- Link -->
+    <rect x="790" y="170" width="700" height="300" fill="#ffe0b2" stroke="#ffcc80"/>
+    <text x="810" y="210" font-family="Arial" font-size="36" font-weight="bold">Link</text>
+    <text x="810" y="260" font-family="Arial" font-size="28">Verify</text>
+    <text x="810" y="310" font-family="Arial" font-size="28">Prepare</text>
+    <text x="810" y="360" font-family="Arial" font-size="28">Resolve</text>
 
     <!-- Initialize -->
-    <rect x="1510" y="130" width="700" height="230" fill="#ffe0b2" stroke="#ffcc80"/>
-    <text x="1530" y="160" font-family="Arial" font-size="20" font-weight="bold">Initialize</text>
-    <text x="1550" y="190" font-family="Arial" font-size="18">Static variables initialization</text>
-    <text x="1550" y="220" font-family="Arial" font-size="18">Execute static blocks</text>
+    <rect x="1510" y="170" width="700" height="300" fill="#ffe0b2" stroke="#ffcc80"/>
+    <text x="1530" y="210" font-family="Arial" font-size="36" font-weight="bold">Initialize</text>
+    <text x="1530" y="260" font-family="Arial" font-size="28">Static variables initialization</text>
+    <text x="1530" y="310" font-family="Arial" font-size="28">Execute static blocks</text>
 
-    <!-- Memory Areas -->
-    <rect x="50" y="400" width="2300" height="800" fill="#e3f2fd" stroke="#90caf9"/>
-    <text x="70" y="430" font-family="Arial" font-size="24" font-weight="bold">Runtime Data Areas</text>
+    <!-- Runtime Data Areas -->
+    <rect x="50" y="520" width="2300" height="1000" fill="#e3f2fd" stroke="#90caf9" stroke-width="2"/>
+    <text x="70" y="570" font-family="Arial" font-size="40" font-weight="bold">Runtime Data Areas</text>
 
     <!-- Heap Memory -->
-    <rect x="70" y="460" width="1100" height="400" fill="#bbdefb" stroke="#64b5f6"/>
-    <text x="90" y="490" font-family="Arial" font-size="20" font-weight="bold">Heap Memory (-Xms, -Xmx)</text>
-    
-    <rect x="90" y="510" width="1060" height="150" fill="#90caf9" stroke="#64b5f6"/>
-    <text x="110" y="535" font-family="Arial" font-size="18" font-weight="bold">Young Generation</text>
-    <rect x="110" y="545" width="700" height="100" fill="#64b5f6" stroke="#1e88e5"/>
-    <text x="420" y="600" font-family="Arial" font-size="16">Eden Space</text>
-    <rect x="820" y="545" width="150" height="100" fill="#64b5f6" stroke="#1e88e5"/>
-    <text x="850" y="600" font-family="Arial" font-size="16">S0</text>
-    <rect x="980" y="545" width="150" height="100" fill="#64b5f6" stroke="#1e88e5"/>
-    <text x="1010" y="600" font-family="Arial" font-size="16">S1</text>
+    <rect x="70" y="590" width="1100" height="500" fill="#bbdefb" stroke="#64b5f6"/>
+    <text x="90" y="630" font-family="Arial" font-size="32" font-weight="bold">Heap Memory (-Xms, -Xmx)</text>
 
-    <rect x="90" y="670" width="1060" height="150" fill="#90caf9" stroke="#64b5f6"/>
-    <text x="110" y="695" font-family="Arial" font-size="18" font-weight="bold">Old Generation (Tenured)</text>
+    <!-- Young Gen -->
+    <rect x="90" y="650" width="1060" height="200" fill="#90caf9" stroke="#64b5f6"/>
+    <text x="110" y="685" font-family="Arial" font-size="28" font-weight="bold">Young Generation</text>
+    <rect x="110" y="700" width="700" height="130" fill="#64b5f6" stroke="#1e88e5"/>
+    <text x="400" y="775" font-family="Arial" font-size="28">Eden Space</text>
+    <rect x="820" y="700" width="150" height="130" fill="#64b5f6" stroke="#1e88e5"/>
+    <text x="865" y="775" font-family="Arial" font-size="28">S0</text>
+    <rect x="980" y="700" width="150" height="130" fill="#64b5f6" stroke="#1e88e5"/>
+    <text x="1025" y="775" font-family="Arial" font-size="28">S1</text>
 
-    <!-- Non-Heap Memory -->
-    <rect x="1190" y="460" width="1160" height="400" fill="#ffcdd2" stroke="#ef9a9a"/>
-    <text x="1210" y="490" font-family="Arial" font-size="20" font-weight="bold">Non-Heap Memory</text>
+    <!-- Old Gen -->
+    <rect x="90" y="860" width="1060" height="200" fill="#90caf9" stroke="#64b5f6"/>
+    <text x="110" y="895" font-family="Arial" font-size="28" font-weight="bold">Old Generation (Tenured)</text>
 
-    <rect x="1210" y="510" width="1120" height="120" fill="#ef9a9a" stroke="#e57373"/>
-    <text x="1230" y="535" font-family="Arial" font-size="18" font-weight="bold">Metaspace (-XX:MetaspaceSize, -XX:MaxMetaspaceSize)</text>
-    <text x="1230" y="565" font-family="Arial" font-size="16">Class Metadata, Methods, Constants</text>
+    <!-- Non-Heap -->
+    <rect x="1190" y="590" width="1160" height="500" fill="#ffcdd2" stroke="#ef9a9a"/>
+    <text x="1210" y="630" font-family="Arial" font-size="32" font-weight="bold">Non-Heap Memory</text>
 
-    <rect x="1210" y="640" width="1120" height="100" fill="#ef9a9a" stroke="#e57373"/>
-    <text x="1230" y="665" font-family="Arial" font-size="18" font-weight="bold">Code Cache</text>
-    <text x="1230" y="695" font-family="Arial" font-size="16">JIT Compiled Code</text>
+    <!-- Metaspace -->
+    <rect x="1210" y="650" width="1120" height="150" fill="#ef9a9a" stroke="#e57373"/>
+    <text x="1230" y="685" font-family="Arial" font-size="28" font-weight="bold">Metaspace (-XX:MetaspaceSize)</text>
+    <text x="1230" y="725" font-family="Arial" font-size="24">Class Metadata, Methods, Constants</text>
 
-    <rect x="1210" y="750" width="1120" height="100" fill="#ef9a9a" stroke="#e57373"/>
-    <text x="1230" y="775" font-family="Arial" font-size="18" font-weight="bold">Direct Memory (NIO)</text>
-    <text x="1230" y="805" font-family="Arial" font-size="16">-XX:MaxDirectMemorySize</text>
+    <!-- Code Cache -->
+    <rect x="1210" y="810" width="1120" height="120" fill="#ef9a9a" stroke="#e57373"/>
+    <text x="1230" y="845" font-family="Arial" font-size="28" font-weight="bold">Code Cache</text>
+    <text x="1230" y="885" font-family="Arial" font-size="24">JIT Compiled Code</text>
+
+    <!-- Direct Memory -->
+    <rect x="1210" y="940" width="1120" height="120" fill="#ef9a9a" stroke="#e57373"/>
+    <text x="1230" y="975" font-family="Arial" font-size="28" font-weight="bold">Direct Memory (NIO)</text>
+    <text x="1230" y="1015" font-family="Arial" font-size="24">-XX:MaxDirectMemorySize</text>
+
+    <!-- Thread Areas -->
+    <rect x="50" y="1540" width="2300" height="400" fill="#c8e6c9" stroke="#a5d6a7" stroke-width="2"/>
+    <text x="70" y="1580" font-family="Arial" font-size="40" font-weight="bold">Thread Areas (-Xss)</text>
 
     <!-- Thread Stacks -->
-    <rect x="70" y="880" width="2280" height="300" fill="#c8e6c9" stroke="#a5d6a7"/>
-    <text x="90" y="910" font-family="Arial" font-size="20" font-weight="bold">Thread Areas (-Xss)</text>
+    <rect x="70" y="1600" width="700" height="320" fill="#a5d6a7" stroke="#81c784"/>
+    <text x="90" y="1640" font-family="Arial" font-size="28" font-weight="bold">Thread Stack 1</text>
+    <text x="90" y="1680" font-family="Arial" font-size="24">Local Variables</text>
+    <text x="90" y="1720" font-family="Arial" font-size="24">Operand Stack</text>
+    <text x="90" y="1760" font-family="Arial" font-size="24">Frame Data</text>
 
-    <!-- Thread Stacks -->
-    <rect x="90" y="930" width="500" height="230" fill="#a5d6a7" stroke="#81c784"/>
-    <text x="110" y="960" font-family="Arial" font-size="18" font-weight="bold">Thread Stack 1</text>
-    <text x="110" y="990" font-family="Arial" font-size="16">Local Variables</text>
-    <text x="110" y="1020" font-family="Arial" font-size="16">Operand Stack</text>
-    <text x="110" y="1050" font-family="Arial" font-size="16">Frame Data</text>
+    <rect x="790" y="1600" width="700" height="320" fill="#a5d6a7" stroke="#81c784"/>
+    <text x="810" y="1640" font-family="Arial" font-size="28" font-weight="bold">Thread Stack 2</text>
+    <text x="810" y="1680" font-family="Arial" font-size="24">Local Variables</text>
+    <text x="810" y="1720" font-family="Arial" font-size="24">Operand Stack</text>
+    <text x="810" y="1760" font-family="Arial" font-size="24">Frame Data</text>
 
-    <rect x="610" y="930" width="500" height="230" fill="#a5d6a7" stroke="#81c784"/>
-    <text x="630" y="960" font-family="Arial" font-size="18" font-weight="bold">Thread Stack 2</text>
-    <text x="630" y="990" font-family="Arial" font-size="16">Local Variables</text>
-    <text x="630" y="1020" font-family="Arial" font-size="16">Operand Stack</text>
-    <text x="630" y="1050" font-family="Arial" font-size="16">Frame Data</text>
-
-    <rect x="1130" y="930" width="500" height="230" fill="#a5d6a7" stroke="#81c784"/>
-    <text x="1150" y="960" font-family="Arial" font-size="18" font-weight="bold">PC Registers</text>
-    <text x="1150" y="990" font-family="Arial" font-size="16">Thread Program Counter</text>
+    <rect x="1510" y="1600" width="700" height="320" fill="#a5d6a7" stroke="#81c784"/>
+    <text x="1530" y="1640" font-family="Arial" font-size="28" font-weight="bold">PC Registers</text>
+    <text x="1530" y="1680" font-family="Arial" font-size="24">Thread Program Counter</text>
 
     <!-- Execution Engine -->
-    <rect x="50" y="1220" width="2300" height="350" fill="#e1bee7" stroke="#ce93d8"/>
-    <text x="70" y="1250" font-family="Arial" font-size="24" font-weight="bold">Execution Engine</text>
+    <rect x="50" y="1960" width="2300" height="200" fill="#e1bee7" stroke="#ce93d8" stroke-width="2"/>
+    <text x="70" y="2000" font-family="Arial" font-size="40" font-weight="bold">Execution Engine</text>
 
-    <rect x="70" y="1280" width="500" height="270" fill="#ce93d8" stroke="#ba68c8"/>
-    <text x="90" y="1310" font-family="Arial" font-size="20" font-weight="bold">Interpreter</text>
-    
-    <rect x="590" y="1280" width="500" height="270" fill="#ce93d8" stroke="#ba68c8"/>
-    <text x="610" y="1310" font-family="Arial" font-size="20" font-weight="bold">JIT Compiler</text>
+    <rect x="70" y="2020" width="550" height="120" fill="#ce93d8" stroke="#ba68c8"/>
+    <text x="90" y="2085" font-family="Arial" font-size="28" font-weight="bold">Interpreter</text>
 
-    <rect x="1110" y="1280" width="500" height="270" fill="#ce93d8" stroke="#ba68c8"/>
-    <text x="1130" y="1310" font-family="Arial" font-size="20" font-weight="bold">Hotspot Profiler</text>
+    <rect x="640" y="2020" width="550" height="120" fill="#ce93d8" stroke="#ba68c8"/>
+    <text x="660" y="2085" font-family="Arial" font-size="28" font-weight="bold">JIT Compiler</text>
 
-    <rect x="1630" y="1280" width="500" height="270" fill="#ce93d8" stroke="#ba68c8"/>
-    <text x="1650" y="1310" font-family="Arial" font-size="20" font-weight="bold">Garbage Collector</text>
+    <rect x="1210" y="2020" width="550" height="120" fill="#ce93d8" stroke="#ba68c8"/>
+    <text x="1230" y="2085" font-family="Arial" font-size="28" font-weight="bold">Hotspot Profiler</text>
+
+    <rect x="1780" y="2020" width="550" height="120" fill="#ce93d8" stroke="#ba68c8"/>
+    <text x="1800" y="2085" font-family="Arial" font-size="28" font-weight="bold">Garbage Collector</text>
 
     <!-- Native Interface -->
-    <rect x="50" y="1590" width="2300" height="150" fill="#b2dfdb" stroke="#80cbc4"/>
-    <text x="70" y="1620" font-family="Arial" font-size="24" font-weight="bold">Native Method Interface (JNI)</text>
-    <text x="70" y="1660" font-family="Arial" font-size="20">Native Method Libraries (.dll, .so, etc)</text>
+    <rect x="50" y="2180" width="2300" height="120" fill="#b2dfdb" stroke="#80cbc4" stroke-width="2"/>
+    <text x="70" y="2250" font-family="Arial" font-size="28" font-weight="bold">Native Method Interface (JNI) and Libraries (.dll, .so)</text>
 
-    <!-- Errors -->
-    <rect x="50" y="1760" width="2300" height="100" fill="#ffcdd2" stroke="#ef9a9a"/>
-    <text x="70" y="1790" font-family="Arial" font-size="20" font-weight="bold">Common Errors:</text>
-    <text x="70" y="1820" font-family="Arial" font-size="16">java.lang.OutOfMemoryError: PermGen space, java.lang.StackOverflowError</text>
 </svg>
