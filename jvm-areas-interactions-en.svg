@@ -1,0 +1,99 @@
+<svg viewBox="0 0 2400 2000" xmlns="http://www.w3.org/2000/svg">
+    <!-- Title -->
+    <rect x="0" y="0" width="2400" height="2000" fill="white"/>
+    <text x="50" y="70" font-family="Arial" font-size="48" font-weight="bold">JVM Areas Interactions</text>
+
+    <!-- Class Loading -->
+    <rect x="50" y="100" width="750" height="400" fill="#fff3e0" stroke="#ffe0b2" stroke-width="2"/>
+    <text x="70" y="140" font-family="Arial" font-size="36" font-weight="bold">Class Loading Subsystem</text>
+    <text x="70" y="190" font-family="Arial" font-size="24">Interactions:</text>
+    <text x="90" y="230" font-family="Arial" font-size="24">• Loads class bytecode</text>
+    <text x="90" y="270" font-family="Arial" font-size="24">• Verifies format and security</text>
+    <text x="90" y="310" font-family="Arial" font-size="24">• Allocates Method Area memory</text>
+    <text x="90" y="350" font-family="Arial" font-size="24">• Initializes static variables</text>
+    <text x="90" y="390" font-family="Arial" font-size="24">• Resolves symbolic references</text>
+
+    <!-- Method Area -->
+    <rect x="850" y="100" width="750" height="400" fill="#e3f2fd" stroke="#90caf9" stroke-width="2"/>
+    <text x="870" y="140" font-family="Arial" font-size="36" font-weight="bold">Method Area</text>
+    <text x="870" y="190" font-family="Arial" font-size="24">Interactions:</text>
+    <text x="890" y="230" font-family="Arial" font-size="24">• Stores class metadata</text>
+    <text x="890" y="270" font-family="Arial" font-size="24">• Provides bytecode to Engine</text>
+    <text x="890" y="310" font-family="Arial" font-size="24">• Maintains constant pool</text>
+    <text x="890" y="350" font-family="Arial" font-size="24">• Manages static methods/fields</text>
+    <text x="890" y="390" font-family="Arial" font-size="24">• Shared across all threads</text>
+
+    <!-- Heap Memory -->
+    <rect x="1650" y="100" width="700" height="400" fill="#bbdefb" stroke="#64b5f6" stroke-width="2"/>
+    <text x="1670" y="140" font-family="Arial" font-size="36" font-weight="bold">Heap Memory</text>
+    <text x="1670" y="190" font-family="Arial" font-size="24">Interactions:</text>
+    <text x="1690" y="230" font-family="Arial" font-size="24">• Object allocation (Eden)</text>
+    <text x="1690" y="270" font-family="Arial" font-size="24">• Object promotion (S0/S1)</text>
+    <text x="1690" y="310" font-family="Arial" font-size="24">• Long-lived objects (Old Gen)</text>
+    <text x="1690" y="350" font-family="Arial" font-size="24">• Interacts with GC</text>
+    <text x="1690" y="390" font-family="Arial" font-size="24">• Shared memory space</text>
+
+    <!-- Thread Areas -->
+    <rect x="50" y="550" width="750" height="400" fill="#c8e6c9" stroke="#a5d6a7" stroke-width="2"/>
+    <text x="70" y="590" font-family="Arial" font-size="36" font-weight="bold">Thread Areas</text>
+    <text x="70" y="640" font-family="Arial" font-size="24">Interactions:</text>
+    <text x="90" y="680" font-family="Arial" font-size="24">• PC Register tracks instructions</text>
+    <text x="90" y="720" font-family="Arial" font-size="24">• Stack stores method frames</text>
+    <text x="90" y="760" font-family="Arial" font-size="24">• Manages local variables</text>
+    <text x="90" y="800" font-family="Arial" font-size="24">• Maintains execution state</text>
+    <text x="90" y="840" font-family="Arial" font-size="24">• Thread-specific isolation</text>
+
+    <!-- Execution Engine -->
+    <rect x="850" y="550" width="750" height="400" fill="#e1bee7" stroke="#ce93d8" stroke-width="2"/>
+    <text x="870" y="590" font-family="Arial" font-size="36" font-weight="bold">Execution Engine</text>
+    <text x="870" y="640" font-family="Arial" font-size="24">Interactions:</text>
+    <text x="890" y="680" font-family="Arial" font-size="24">• Interpreter executes bytecode</text>
+    <text x="890" y="720" font-family="Arial" font-size="24">• JIT compiles to native code</text>
+    <text x="890" y="760" font-family="Arial" font-size="24">• Profiler optimizes execution</text>
+    <text x="890" y="800" font-family="Arial" font-size="24">• GC manages heap memory</text>
+    <text x="890" y="840" font-family="Arial" font-size="24">• Uses thread stacks</text>
+
+    <!-- Native Interface -->
+    <rect x="1650" y="550" width="700" height="400" fill="#b2dfdb" stroke="#80cbc4" stroke-width="2"/>
+    <text x="1670" y="590" font-family="Arial" font-size="36" font-weight="bold">Native Interface</text>
+    <text x="1670" y="640" font-family="Arial" font-size="24">Interactions:</text>
+    <text x="1690" y="680" font-family="Arial" font-size="24">• Loads native libraries</text>
+    <text x="1690" y="720" font-family="Arial" font-size="24">• Handles native calls</text>
+    <text x="1690" y="760" font-family="Arial" font-size="24">• Converts Java/Native types</text>
+    <text x="1690" y="800" font-family="Arial" font-size="24">• Manages native stacks</text>
+    <text x="1690" y="840" font-family="Arial" font-size="24">• OS interface bridge</text>
+
+    <!-- Runtime Services -->
+    <rect x="50" y="1000" width="750" height="400" fill="#ffcdd2" stroke="#ef9a9a" stroke-width="2"/>
+    <text x="70" y="1040" font-family="Arial" font-size="36" font-weight="bold">Runtime Services</text>
+    <text x="70" y="1090" font-family="Arial" font-size="24">Interactions:</text>
+    <text x="90" y="1130" font-family="Arial" font-size="24">• Security checks access</text>
+    <text x="90" y="1170" font-family="Arial" font-size="24">• Handles exceptions</text>
+    <text x="90" y="1210" font-family="Arial" font-size="24">• Allocates memory</text>
+    <text x="90" y="1250" font-family="Arial" font-size="24">• Manages threads</text>
+    <text x="90" y="1290" font-family="Arial" font-size="24">• Controls synchronization</text>
+
+    <!-- Memory Management -->
+    <rect x="850" y="1000" width="750" height="400" fill="#fff3e0" stroke="#ffe0b2" stroke-width="2"/>
+    <text x="870" y="1040" font-family="Arial" font-size="36" font-weight="bold">Memory Management</text>
+    <text x="870" y="1090" font-family="Arial" font-size="24">Interactions:</text>
+    <text x="890" y="1130" font-family="Arial" font-size="24">• GC monitors heap usage</text>
+    <text x="890" y="1170" font-family="Arial" font-size="24">• Manages object lifecycle</text>
+    <text x="890" y="1210" font-family="Arial" font-size="24">• Deallocates unused memory</text>
+    <text x="890" y="1250" font-family="Arial" font-size="24">• Compacts heap as needed</text>
+    <text x="890" y="1290" font-family="Arial" font-size="24">• Prevents memory leaks</text>
+
+    <!-- Monitor & Threading -->
+    <rect x="1650" y="1000" width="700" height="400" fill="#e3f2fd" stroke="#90caf9" stroke-width="2"/>
+    <text x="1670" y="1040" font-family="Arial" font-size="36" font-weight="bold">Monitor and Threading</text>
+    <text x="1670" y="1090" font-family="Arial" font-size="24">Interactions:</text>
+    <text x="1690" y="1130" font-family="Arial" font-size="24">• Manages object locks</text>
+    <text x="1690" y="1170" font-family="Arial" font-size="24">• Coordinates threads</text>
+    <text x="1690" y="1210" font-family="Arial" font-size="24">• Handles synchronization</text>
+    <text x="1690" y="1250" font-family="Arial" font-size="24">• Manages wait/notify</text>
+    <text x="1690" y="1290" font-family="Arial" font-size="24">• Prevents deadlocks</text>
+
+    <!-- Footer Note -->
+    <rect x="50" y="1450" width="2300" height="100" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="2"/>
+    <text x="70" y="1510" font-family="Arial" font-size="24" font-style="italic">Note: All areas continuously interact during program execution to ensure proper resource management and execution</text>
+</svg>
