@@ -66,7 +66,7 @@
     <text x="500" y="2420" font-family="Arial" font-size="28">Map Java priorities to OS priorities</text>
 
     <!-- Monitoring -->
-    <rect x="50" y="2700" width="2300" height="300" fill="#f3e5f5" stroke="#e1bee7"/>
+    <rect x="50" y="2700" width="2300" height="500" fill="#f3e5f5" stroke="#e1bee7"/>
     <text x="70" y="2760" font-family="Arial" font-size="40" font-weight="bold">Performance Monitoring</text>
     
     <text x="110" y="2820" font-family="Arial" font-size="28">-XX:+PerfDisableSharedMem</text>
