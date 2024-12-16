@@ -73,21 +73,27 @@
     <text x="70" y="1580" font-family="Arial" font-size="40" font-weight="bold">Thread Areas (-Xss)</text>
 
     <!-- Thread Stacks -->
-    <rect x="70" y="1600" width="700" height="320" fill="#a5d6a7" stroke="#81c784"/>
+    <rect x="70" y="1600" width="550" height="320" fill="#a5d6a7" stroke="#81c784"/>
     <text x="90" y="1640" font-family="Arial" font-size="28" font-weight="bold">Thread Stack 1</text>
     <text x="90" y="1680" font-family="Arial" font-size="24">Local Variables</text>
     <text x="90" y="1720" font-family="Arial" font-size="24">Operand Stack</text>
     <text x="90" y="1760" font-family="Arial" font-size="24">Frame Data</text>
 
-    <rect x="790" y="1600" width="700" height="320" fill="#a5d6a7" stroke="#81c784"/>
-    <text x="810" y="1640" font-family="Arial" font-size="28" font-weight="bold">Thread Stack 2</text>
-    <text x="810" y="1680" font-family="Arial" font-size="24">Local Variables</text>
-    <text x="810" y="1720" font-family="Arial" font-size="24">Operand Stack</text>
-    <text x="810" y="1760" font-family="Arial" font-size="24">Frame Data</text>
+    <rect x="640" y="1600" width="550" height="320" fill="#a5d6a7" stroke="#81c784"/>
+    <text x="660" y="1640" font-family="Arial" font-size="28" font-weight="bold">Thread Stack 2</text>
+    <text x="660" y="1680" font-family="Arial" font-size="24">Local Variables</text>
+    <text x="660" y="1720" font-family="Arial" font-size="24">Operand Stack</text>
+    <text x="660" y="1760" font-family="Arial" font-size="24">Frame Data</text>
 
-    <rect x="1510" y="1600" width="700" height="320" fill="#a5d6a7" stroke="#81c784"/>
-    <text x="1530" y="1640" font-family="Arial" font-size="28" font-weight="bold">PC Registers</text>
-    <text x="1530" y="1680" font-family="Arial" font-size="24">Thread Program Counter</text>
+    <rect x="1210" y="1600" width="550" height="320" fill="#a5d6a7" stroke="#81c784"/>
+    <text x="1230" y="1640" font-family="Arial" font-size="28" font-weight="bold">Thread Stack 3</text>
+    <text x="1230" y="1680" font-family="Arial" font-size="24">Local Variables</text>
+    <text x="1230" y="1720" font-family="Arial" font-size="24">Operand Stack</text>
+    <text x="1230" y="1760" font-family="Arial" font-size="24">Frame Data</text>
+
+    <rect x="1780" y="1600" width="550" height="320" fill="#a5d6a7" stroke="#81c784"/>
+    <text x="1800" y="1640" font-family="Arial" font-size="28" font-weight="bold">PC Registers</text>
+    <text x="1800" y="1680" font-family="Arial" font-size="24">Thread Program Counter</text>
 
     <!-- Execution Engine -->
     <rect x="50" y="1960" width="2300" height="200" fill="#e1bee7" stroke="#ce93d8" stroke-width="2"/>
@@ -106,7 +112,12 @@
     <text x="1800" y="2085" font-family="Arial" font-size="28" font-weight="bold">Garbage Collector</text>
 
     <!-- Native Interface -->
-    <rect x="50" y="2180" width="2300" height="120" fill="#b2dfdb" stroke="#80cbc4" stroke-width="2"/>
-    <text x="70" y="2250" font-family="Arial" font-size="28" font-weight="bold">Native Method Interface (JNI) and Libraries (.dll, .so)</text>
+    <rect x="50" y="2180" width="2300" height="100" fill="#b2dfdb" stroke="#80cbc4" stroke-width="2"/>
+    <text x="70" y="2235" font-family="Arial" font-size="28" font-weight="bold">Native Method Interface (JNI) and Libraries (.dll, .so)</text>
+
+    <!-- Common Errors -->
+    <rect x="50" y="2300" width="2300" height="80" fill="#ffcdd2" stroke="#ef9a9a" stroke-width="2"/>
+    <text x="70" y="2350" font-family="Arial" font-size="28" font-weight="bold">Common Errors: </text>
+    <text x="300" y="2350" font-family="Arial" font-size="24">java.lang.OutOfMemoryError: PermGen space, java.lang.StackOverflowError</text>
 
 </svg>
