@@ -1,6 +1,6 @@
-<svg viewBox="0 0 2400 3300" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 2400 3100" xmlns="http://www.w3.org/2000/svg">
     <!-- Title and Main Container -->
-    <rect x="0" y="0" width="2400" height="3300" fill="white"/>
+    <rect x="0" y="0" width="2400" height="3100" fill="white"/>
     <text x="50" y="50" font-family="Arial" font-size="52" font-weight="bold">Complete JVM Architecture and All Parameters</text>
 
     <!-- Header Description -->
