@@ -1,6 +1,9 @@
 # JVM Areas
 ![JVM Areas](./jvm-memory-layout.svg)
 
+# JVM Areas Interaction
+![JVM Areas Ineraction](./jvm-areas-interactions-en.svg)
+
 # JVM Architecture
 ![JVM Architecture](./jvm-architecture.svg)
 
