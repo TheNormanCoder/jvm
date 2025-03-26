@@ -1,10 +1,4 @@
----
-title: JVM Docs
----
-
 <link rel="stylesheet" href="assets/css/custom.css">
-
-<div class="main-content">
 
 # JVM Areas
 ![JVM Areas](./jvm-memory-layout.svg)
@@ -257,4 +251,3 @@ Il garbage collector opera principalmente qui.
 - **Java Flight Recorder**: Profiling con overhead minimo
 - **VisualVM/JConsole**: Interfacce grafiche per monitoraggio
 
-</div>
