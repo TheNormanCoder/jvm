@@ -1,16 +1,32 @@
 body {
   background-color: #121212;
   color: #f0f0f0;
+  font-family: system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #a0ffcc;
 }
 
 a {
-  color: #80cbc4;
+  color: #7fc7ff;
+}
+
+strong, b {
+  color: #ffffff;
+}
+
+em, i {
+  color: #cccccc;
+}
+
+code, pre {
+  background-color: #1e1e1e;
+  color: #ffa07a;
+  padding: 2px 4px;
+  border-radius: 4px;
 }
 
 img {
   filter: brightness(0.9);
-}
-
-h1, h2, h3 {
-  color: #a0ffcc;
 }
