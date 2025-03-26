@@ -1,0 +1,18 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+
+  a {
+    color: #80cbc4;
+  }
+
+  img {
+    filter: brightness(0.9);
+  }
+
+  h1, h2, h3 {
+    color: #a0ffcc;
+  }
+}
