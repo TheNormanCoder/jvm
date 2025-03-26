@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="assets/css/custom.css">
+
 # JVM Areas
 ![JVM Areas](./jvm-memory-layout.svg)
 
