@@ -1,3 +1,4 @@
+<div class="main-content">
 <link rel="stylesheet" href="assets/css/custom.css">
 
 # JVM Areas
@@ -250,3 +251,5 @@ Il garbage collector opera principalmente qui.
 - **jcmd**: Diagnosi completa
 - **Java Flight Recorder**: Profiling con overhead minimo
 - **VisualVM/JConsole**: Interfacce grafiche per monitoraggio
+
+</div>
